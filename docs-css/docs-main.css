@@ -17,6 +17,7 @@
     border-radius: 3px;
     padding: var(--padding-large);
     width: 100%;
+    flex-wrap: wrap;
 }
 
 /* iframe */

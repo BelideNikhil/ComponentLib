@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    /* outline: 1px solid red; */
 }
 html{
     font-size: 16px;
@@ -17,6 +16,7 @@ html{
     --clr-background:#f8f8f8;
     --clr-whitesmoke:whitesmoke;
     --clr-black:#282828;
+    --clr-grey-light:rgb(165, 165, 165);
 
     /* other colors */
     --clr-success:#198754;
