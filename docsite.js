@@ -5,10 +5,23 @@ const asideComp=document.querySelector(".aside")
 
 navToggleBtn.addEventListener("click",()=>{
    asideComp.classList.add("aside-active")
-   // document.querySelector("body").style.overflow = 'hidden';
 })
 
 closeAsideBtn.addEventListener("click",()=>{
    asideComp.classList.remove("aside-active")
-   // document.querySelector("body").style.overflow = 'auto';
+})
+
+// modal demo
+const modalDemoContainer=document.querySelector("#modal-demo-container")
+const modalDemoBtn=document.querySelector("#modal-demo-btn")
+const modalDemoDismissBtn=document.querySelector("#modal-demo-dismiss")
+
+modalDemoBtn.addEventListener("click",()=>{
+   modalDemoContainer.classList.add("active-modal");
+   document.body.style.overflow="hidden"
+})
+
+modalDemoDismissBtn.addEventListener("click",()=>{
+   modalDemoContainer.classList.remove("active-modal");
+   document.body.style.overflow="auto"
 })
