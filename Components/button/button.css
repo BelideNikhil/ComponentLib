@@ -1,5 +1,3 @@
-
-
 .btn{
     display: inline-block;
     padding: var(--padding-sm) var(--padding-large);
@@ -141,4 +139,10 @@
 }
 .btn-icon-secondary i{
     color: var(--clr-secondary);
+}
+
+/* floating button */
+.floating-btn{
+    box-shadow: var(--box-shadow-heavy);
+    border-radius: 50%;
 }
