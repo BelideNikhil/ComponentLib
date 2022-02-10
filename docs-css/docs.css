@@ -3,7 +3,7 @@
 @import url(./docs-navbar.css);
 @import url(./docs-aside.css);
 @import url(./docs-main.css);
-
+@import url(./docs-landing-page.css);
 
 .container{
     width: 90%;
