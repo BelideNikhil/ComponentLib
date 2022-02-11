@@ -51,6 +51,9 @@
     text-align: center;
     font-weight: var(--fw-bold-600);
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: -6px;
     right:-6px;
