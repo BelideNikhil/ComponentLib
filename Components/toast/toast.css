@@ -1,9 +1,10 @@
 
 .toast{
-    width:max-content;
+    width:100%;
+    max-width: 400px;
     height: max-content;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid;
     border-radius: 4px;
@@ -51,7 +52,7 @@
 /* toast positions */
 .toast-baseline{
     position: fixed;
-    bottom: 0.5rem;
+    bottom: 1rem;
     left:50%;
     transform: translate(-50%, -50%);
 }
@@ -73,3 +74,9 @@
     display: flex;
 }
 
+@media screen and (max-width:450px) {
+    .toast{
+        width: 100%;
+        max-width: 350px;
+    }
+}
