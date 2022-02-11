@@ -29,7 +29,7 @@
     align-items: center;
     text-align: center;
 }
-.modal-content>.modal-header,p{
+.modal-content p, .modal-header{
     margin: var(--margin-sm);
 }
 .modal-header{
@@ -62,7 +62,7 @@
 @media screen and (max-width:500px){
     .modal-content{
         width: 100%;
-        max-width: 400px;
+        max-width: 350px;
         padding: var(--padding-md);
     }
 }
