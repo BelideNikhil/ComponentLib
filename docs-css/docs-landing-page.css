@@ -26,3 +26,10 @@
 .installation-content>*{
     margin: var(--margin-md);
 }
+
+@media screen and (max-width: 500px) {
+    .hero-section{
+        height: 80vh;
+        margin-bottom: var(--margin-large);
+    }
+}
