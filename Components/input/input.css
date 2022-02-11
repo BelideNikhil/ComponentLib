@@ -27,6 +27,9 @@
 .form-control input[type="checkbox"],input[type="radio"]{
     width: max-content;
 }
+.form-input:disabled{
+    cursor: not-allowed;
+}
 /* validation styles */
 
 .form-valid-message{
