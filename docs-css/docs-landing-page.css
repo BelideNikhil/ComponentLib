@@ -23,6 +23,9 @@
 .install-section{
     margin-top: var(--margin-xxl);
 }
+.install-section div>*{ 
+    margin: var(--margin-md);
+}
 .installation-content>*{
     margin: var(--margin-md);
 }
