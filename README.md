@@ -174,4 +174,4 @@ To start using this library add the below mentioned `<link>` tag to the `<head>`
 ![image](https://raw.githubusercontent.com/BelideNikhil/gifstorage/master/asset/library-gif.gif)
 
 
-<p align="center"> By `Nikhil Belide` </p>
+<p align="center"> By Nikhil Belide </p>
