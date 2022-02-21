@@ -164,3 +164,14 @@ To start using this library add the below mentioned `<link>` tag to the `<head>`
 ## Hosted Using
 
 +  ### [Netlify](https://www.netlify.com)
+
+---
+
+## Live Link
+
++  ### [Webiste Live Link](https://maq-ui.netlify.app/)
+
+![image](https://raw.githubusercontent.com/BelideNikhil/gifstorage/master/asset/library-gif.gif)
+
+
+<p align="center"> By `Nikhil Belide` </p>
