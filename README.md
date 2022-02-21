@@ -130,6 +130,14 @@ To start using this library add the below mentioned `<link>` tag to the `<head>`
 +  Notification List
 
 ---
+
+### [Slider](https://maq-ui.netlify.app/components/slider/slider.html)
+<p>Sliders are used to decide range for things like volume, price etc.</p>
+
++  Custom Slider
++  Slider with Icon
+
+---
 ### [Navigation](https://maq-ui.netlify.app/components/navigation/navigation.html)
 <p>A Navbar is used to switch between different pages in a website/web-app.</p>
 
