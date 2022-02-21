@@ -21,7 +21,7 @@ html{
     /* other colors */
     --clr-success:#198754;
     --clr-error:#dc3545;
-    --clr-warning:#ffc107;
+    --clr-warning:#ffa200;
     --clr-info:#0d6efd;
 
     --clr-success-faded:#cbf7e2b8;
@@ -86,11 +86,29 @@ p{
 .hide-content{
     display: none;
 }
-.faded-font{
-    color: rgb(146, 146, 146);
+.faded-font,
+.txt-grey{
+    color:#929292;
 }
-.primary-accent{
+.primary-accent,
+.txt-clr-primary{
     color: var(--clr-primary);
+}
+.secondary-accent,
+.txt-clr-secondary{
+    color: var(--clr-secondary);
+}
+.txt-clr-error{
+    color: var(--clr-error);
+}
+.txt-clr-warning{
+    color: var(--clr-warning);
+}
+.txt-clr-info{
+    color: var(--clr-info);
+}
+.txt-clr-success{
+    color: var(--clr-success);
 }
 .hr{
     margin: 1.5rem 0;
@@ -121,6 +139,42 @@ p{
 .flex-wrap {
     flex-wrap: wrap;
 }
-.secondary-accent {
-    color: var(--clr-secondary);
+/* text align */
+.txt-left{
+    text-align: left;
+}
+.txt-center{
+    text-align: center;
+}
+.txt-right{
+    text-align: right;
+}
+
+.txt-strike{
+    text-decoration:line-through;
+}
+.txt-underline{
+    text-decoration: underline;
+}
+.txt-uppercase{
+    text-transform: uppercase;
+}
+.txt-bold{
+    font-weight: var(--fw-bold-600);
+}
+/* txt sizes */
+.font-size-xs{
+    font-size:0.75rem;
+}
+.font-size-sm{
+    font-size: 0.875;
+}
+.font-size-normal{
+    font-size: 1rem;
+}
+.font-size-lg{
+    font-size: 1.25rem;
+}
+.font-size-xl{
+    font-size: 1.5rem;
 }
