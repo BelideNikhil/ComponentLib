@@ -113,5 +113,14 @@ p{
     justify-content: center;
     align-items: center;
 }
-
-
+.flex-clmn-spc-evenly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.secondary-accent {
+    color: var(--clr-secondary);
+}
