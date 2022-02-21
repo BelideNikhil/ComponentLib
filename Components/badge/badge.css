@@ -58,7 +58,10 @@
     top: -6px;
     right:-6px;
 }
-
+a.btn-icon~.badge-icon{
+    top: -12px;
+    right:-12px;
+}
 .badge-icon-primary{
     background-color: var(--clr-primary);
 }
