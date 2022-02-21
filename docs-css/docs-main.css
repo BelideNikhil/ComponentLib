@@ -15,7 +15,7 @@
 .component-code-examples{
     border: 1px solid var(--clr-secondary);
     border-radius: 3px;
-    padding: var(--padding-large);
+    padding: var(--padding-md);
     width: 100%;
     flex-wrap: wrap;
 }
